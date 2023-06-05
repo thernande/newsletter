@@ -1,4 +1,4 @@
-pub mod newsletter_routes;
+mod newsletter_routes;
 use actix_web::web;
 
 pub fn api(cfg: &mut web::ServiceConfig) {
